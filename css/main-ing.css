@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,700&display=swap');
+body {
+	font-family: 'Josefin Sans', sans-serif;
+}
+/* vietnamese */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Josefin Sans Regular'), local('JosefinSans-Regular'), url(https://fonts.gstatic.com/s/josefinsans/v14/Qw3aZQNVED7rKGKxtqIqX5EUAnx4RHw.woff2) format('woff2');
+  unicode-range: U+0102-0103, U+0110-0111, U+1EA0-1EF9, U+20AB;
+}
+/* latin-ext */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Josefin Sans Regular'), local('JosefinSans-Regular'), url(https://fonts.gstatic.com/s/josefinsans/v14/Qw3aZQNVED7rKGKxtqIqX5EUA3x4RHw.woff2) format('woff2');
+  unicode-range: U+0100-024F, U+0259, U+1E00-1EFF, U+2020, U+20A0-20AB, U+20AD-20CF, U+2113, U+2C60-2C7F, U+A720-A7FF;
+}
+/* latin */
+@font-face {
+  font-family: 'Josefin Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Josefin Sans Regular'), local('JosefinSans-Regular'), url(https://fonts.gstatic.com/s/josefinsans/v14/Qw3aZQNVED7rKGKxtqIqX5EUDXx4.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+
+
+.nav-bg {
+	background: #FAFAFA;
+}
+
+.masthead{
+  background: linear-gradient(0deg, rgba(28, 28, 27, 0.8), rgba(28, 28, 27, 0.8)), url(../assets/Images/prayer-1308663_960_720.jpg) no-repeat bottom center fixed;
+  /*background: linear-gradient(to right, rgba(0,33,71,0.93), rgba(0,33,71,0.53)),  url("../assets/Images/importance-of-photography.jpg")*/
+	display: table;
+  width: 100%;
+  height: auto;
+  padding: 270px 0;
+  text-align: left;
+  color: white;
+  background-color: black;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+.masthead .intro-body {
+  display: table-cell;
+  vertical-align: middle;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.masthead .intro-body .brand-heading {
+  font-size: 40px;
+  font-weight: normal;
+  font-family: 'Josefin Sans', sans-serif;
+}
+
+.masthead .intro-body .intro-text {
+  font-size: 18px;
+}
+#aboutus {
+	padding-top: 70px;
+	padding-bottom: 150px;
+	background: #fafafa;
+}
+.card-section {
+	background: #f2f4f8;
+}
+#aboutus h1 {
+	color: rgba(0,33,71,0.99);
+	font-weight: bolder;
+}
+
+.indig-bg-red {
+  background-color: #EE4E24; 
+}
+.indig-red {
+  color: #EE4E24; 
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+@media (max-width: 576px) {
+	.masthead {
+		padding: 100px 0;
+	}
+	#aboutus {
+	padding-top: 30px;
+	padding-bottom: 100px;
+}
+}
+
+@media (max-width: 768px) {
+	.masthead {
+		padding: 125px 0;
+	}
+}
+
+@media (max-width: 992px) {
+	.masthead {
+		padding: 150px 0;
+	}
+}
