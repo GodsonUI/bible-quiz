@@ -33,7 +33,10 @@ body {
 .nav-bg {
 	background: #FAFAFA;
 }
-
+.navbar-brand img {
+  height: 25px;
+  width: auto;
+}
 .masthead{
   background: linear-gradient(0deg, rgba(28, 28, 27, 0.8), rgba(28, 28, 27, 0.8)), url(../assets/Images/prayer-1308663_960_720.jpg) no-repeat bottom center fixed;
   /*background: linear-gradient(to right, rgba(0,33,71,0.93), rgba(0,33,71,0.53)),  url("../assets/Images/importance-of-photography.jpg")*/
