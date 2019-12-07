@@ -209,8 +209,9 @@ body {
 #aboutus {
 	padding-top: 80px;
 	padding-bottom: 150px;
-	background: #fafafa;
-  background: url(../assets/Images/Blob2.png) no-repeat bottom left ;
+	background: #fdfdfd;
+  background: url(../assets/Images/Blob2.png) no-repeat bottom left, #fafafa ;
+
 }
 .card-section {
 	background: #f2f4f8;
@@ -218,6 +219,9 @@ body {
 #aboutus h1 {
 	color: rgba(0,33,71,0.99);
 	font-weight: bolder;
+}
+.call-to-action {
+  background: #1c1c1b;
 }
 
 .indig-bg-red {
