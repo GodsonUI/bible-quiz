@@ -67,6 +67,11 @@ body {
   background: #FAFAFA;
   box-shadow: 0px 26.4504px 33.063px rgba(0, 0, 0, 0.1), 0px 13.2252px 13.2252px rgba(0, 0, 0, 0.04);
 }
+
+.top-nav-collapse  {
+  background: #FAFAFA;
+  box-shadow: 0px 26.4504px 33.063px rgba(0, 0, 0, 0.1), 0px 13.2252px 13.2252px rgba(0, 0, 0, 0.04);
+}
 .navbar {
 	-webkit-transition: all 0.6s!important;
     -o-transition: all 0.6s!important;
@@ -76,6 +81,9 @@ body {
 .navbar-brand img {
   height: 25px;
   width: auto;
+}
+.top-heading {
+  font-style: 
 }
 .masthead{
   background: linear-gradient(0deg, rgba(28, 28, 27, 0.8), rgba(28, 28, 27, 0.8)), url(../assets/Images/prayer-1308663_960_720.jpg) no-repeat bottom center fixed;
@@ -115,7 +123,7 @@ body {
   top: 0;
   height: 100%;
   width: 55%;
-  background: #1c1c1b;
+  background: #EE4E24;
   z-index: -1;
   transition: 0.3s ease-in all;
 }
@@ -126,7 +134,7 @@ body {
   top: 5%;
   height: 90%;
   width: 5%;
-  background: #EE4E24;
+  background: #1c1c1b;
   z-index: -1;
   transition: 0.4s 0.02s ease-in all;
 }
@@ -202,6 +210,7 @@ body {
 	padding-top: 80px;
 	padding-bottom: 150px;
 	background: #fafafa;
+  background: url(../assets/Images/Blob2.png) no-repeat bottom left ;
 }
 .card-section {
 	background: #f2f4f8;
