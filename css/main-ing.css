@@ -28,10 +28,50 @@ body {
   unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
 }
 
+.hover-nav.nav-item::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 0;
+  left: 0;
+  background-color: #EE4E24;
+  transition: width 0.5s ease-in-out;
+}
+.hover-nav.active::after {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 30px;
+  left: 0;
+  background-color: #EE4E24;
+  transition: width 0.5s ease-in-out;
+}
+.hover-nav.nav-item::after {
+  bottom: 0;
+}
+.hover-nav.nav-item:hover::after {
+  width: 70px;
+}
+.hover-nav {
+  position: relative;
+  /*padding: 1em 1.5em;*/
+  border: none;
+  background-color: transparent;
+  cursor: pointer;
+  outline: none;
+}
 
-
-.nav-bg {
-	background: #FAFAFA;
+.top-nav-collapse {
+  background: #FAFAFA;
+  box-shadow: 0px 26.4504px 33.063px rgba(0, 0, 0, 0.1), 0px 13.2252px 13.2252px rgba(0, 0, 0, 0.04);
+}
+.navbar {
+	-webkit-transition: all 0.6s!important;
+    -o-transition: all 0.6s!important;
+    -moz-transition: all 0.6s!important;
+    transition: all 0.6s!important;
 }
 .navbar-brand img {
   height: 25px;
